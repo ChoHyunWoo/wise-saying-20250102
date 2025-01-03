@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class App {
 
     private final Scanner sc;
-
+    private  int lastId;
     public App(Scanner sc){
         this.sc =sc;
+        this.lastId=0;
     }
     public void run() {
         System.out.println("=== 명언 앱 ====");
@@ -18,13 +19,13 @@ public class App {
         if(cmd.equals("종료")){
             System.out.println("명언앱을 종료합니다.");
             break;
+        }else if(cmd.equals("등록")){
+            System.out.println("명언 : ");
+            System.out.println("작가 : ");
+
+            System.out.println("%d번 명언이 등록되었습니다.".formatted(++lastId));
+
+            }
         }
-
-        }
-        System.out.println("명언 : ");
-        System.out.println("작가 : ");
-
-
-        // 테스트에 써먹을려고
-    }
+     }
 }

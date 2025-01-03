@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8205423b-d12b-45e1-9d06-aa7d17e118df" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,7 @@
     "JUnit.FirstTest.t3.executor": "Run",
     "JUnit.FirstTest.t4.executor": "Run",
     "JUnit.FirstTest.t5.executor": "Run",
+    "JUnit.FirstTest.t7.executor": "Run",
     "JUnit.FirstTestTest.t1.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -75,32 +72,12 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest">
+  <component name="RunManager" selected="JUnit.FirstTest.t8">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-2025-01-02.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD-2025-01-02.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="t2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD-2025-01-02.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="t3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,13 +102,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTest.t7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-2025-01-02.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="t7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.t8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-2025-01-02.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="t8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.t8" />
+        <item itemvalue="JUnit.FirstTest.t7" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.FirstTest.t4" />
         <item itemvalue="JUnit.FirstTest.t5" />
-        <item itemvalue="JUnit.FirstTest.t3" />
-        <item itemvalue="JUnit.FirstTest.t2" />
       </list>
     </recent_temporary>
   </component>
